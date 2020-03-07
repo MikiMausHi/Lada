@@ -1,0 +1,50 @@
+@import "../../../../theme/styles/settings.scss";
+
+
+.section-title {
+  font-weight: 300;
+  color: #44bb44;
+}
+
+.section-descr {
+  font-size: 12px;
+}
+
+.section-block {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.block-name {
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.block-inf {
+  width: 40%;
+}
+
+.block-link {
+  margin-top: 7px;
+  font-size: 13px;
+  color: #44bb44;
+}
+
+#adress {
+  margin-left: 140px;
+}
+
+.title-super {
+  font-weight: 600;
+}
+
+.line {
+  opacity: .7;
+  border: none;
+  border-top: 2px dashed #ddd;
+}
+
+.block-adress {
+  margin-right: 40px;
+}

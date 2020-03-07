@@ -1,0 +1,44 @@
+@import "../../../theme/styles/settings.scss";
+
+.section-title {
+  color: #44bb44;
+}
+
+.section-descr {
+  font-size: 13px;
+}
+
+.section-title-j {
+  font-size: 14px;
+}
+
+.section-partners {
+  display: flex;
+  width: 766px;
+}
+
+.partners {
+  width: 55%;
+  font-size: 13px;
+}
+
+.insurance {
+  width: 45%;
+  font-size: 13px;
+}
+
+.partners-title,
+.insurance-title {
+  font-size: 16px;
+  color: #44bb44;
+  text-align: center;
+}
+
+.section-list {
+  color: #44bb44;
+  font-size: 17px;
+}
+
+.section-consult {
+  font-size: 13px;
+}

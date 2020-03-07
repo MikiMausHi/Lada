@@ -1,0 +1,45 @@
+@import "../../../../theme/styles/settings.scss";
+
+.block-info-jobs {
+  width: 766px;
+
+}
+
+.email-jobs {
+  color: #44bb44;
+}
+
+.info-jobs {
+
+  font-size: 14px;
+  height: 100%;
+
+  .jobs-vak {
+    font-size: 3rem;
+    color: #44bb44;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}
+
+.info-jobs-banner {
+  width: 50%;
+}
+
+.jobs-title {
+  font-size: 22px;
+  color: #44bb44;
+}
+
+.jobs-list {
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+}
+
+.jobs-list-li {
+  font-size: 13px;
+}

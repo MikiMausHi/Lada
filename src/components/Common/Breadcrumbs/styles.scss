@@ -1,0 +1,22 @@
+.breadcrumbs {
+  .list {
+    li {
+      margin-right: 14px;
+      display: inline-block;
+
+      .link {
+        &:after {
+          position: relative;
+          content: '•';
+          font-family: 'slick';
+          font-size: 28px;
+          line-height: 30px;
+          text-align: center;
+          color: #44bb44;
+          top: 5px;
+          left: 7px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../../theme/styles/settings';
+
+.online-learning {
+  &-item {
+    padding-right: 20px;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    p {
+      @include fonts($size-small, $font-family-secondary);
+    }
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+}

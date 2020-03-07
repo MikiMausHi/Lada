@@ -1,0 +1,49 @@
+@import '../../../theme/styles/settings';
+
+.header-menu {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 136px;
+  left: auto;
+  right: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.18);
+  z-index: 1;
+
+  &-wrapper {
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 2;
+    min-height: 472px;
+  }
+
+  &-open {
+    display: block;
+  }
+
+  &-menu {
+    @include fonts($size-small, $font-family-secondary);
+
+    li {
+      margin: 12px 0;
+    }
+  }
+
+  &-submenu {
+    @include fonts($size-small, $font-family-base);
+    padding-left: 10px;
+
+    li {
+      margin: 8px 0;
+    }
+  }
+}
+
+.menu-link-header {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-link-header:hover {
+  color: #44bb44;
+}

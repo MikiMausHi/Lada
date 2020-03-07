@@ -1,0 +1,130 @@
+@import '../../../theme/styles/settings.scss';
+
+.banner-ladushki-logo {
+  display: flex;
+  align-items: center;
+
+  height: 40px;
+
+  h2 {
+    margin: 0 auto;
+    color: #44bb44;
+    margin-top: 0;
+  }
+
+  img {
+    height: 183px;
+    width: 301px;
+
+  }
+}
+
+.banner-ladushki-info {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.ladushki-info {
+  width: 68%;
+}
+
+.ladushki-children {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+
+  h2 {
+    color: #44bb44;
+  }
+
+  img {
+    width: 370px;
+    height: 290px;
+
+  }
+}
+
+.info-text {
+  width: 65%;
+  margin-top: 20px;
+}
+
+.button-children {
+  width: 360px;
+  height: 30px;
+  background-color: #44bb44;
+  border-radius: 30px;
+  border: 0;
+  color: white;
+  margin-top: 15px;
+}
+
+
+
+
+.title-baby {
+
+  color: #44bb44;
+  font-size: 20px;
+}
+
+.baby-img {
+  width: 240px !important;
+  height: 158px;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 4px;
+  margin-top: 9px;
+}
+
+.baby-row {
+  display: flex;
+
+  p {
+    width: 70%;
+    margin-left: 8px;
+    margin-top: 0;
+    font-size: 14px;
+  }
+}
+
+.discr-baby {
+  font-size: 14px;
+}
+
+.file-baby {
+  color: black;
+  font-size: 14px;
+}
+
+.file-baby:hover {
+  color: #44bb44;
+}
+
+#baby-top {
+  margin-top: 40px;
+
+  ol {
+    font-size: 14px;
+  }
+
+  b {
+    font-size: 14px;
+  }
+}
+
+.phone-baby {
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+.baby-list {
+  list-style-type: decimal;
+  padding: 0 0 0 40px;
+}
+
+#home-link2 {
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+}

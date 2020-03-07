@@ -1,0 +1,95 @@
+@import '../../../theme/styles/settings.scss';
+
+
+.title-banner {
+  color: red;
+  opacity: 1;
+  margin-top: 30px;
+  position: relative;
+
+}
+
+.banner-home {
+  width: 100%;
+  height: 460px;
+  max-width: 768px;
+}
+
+.banner-home-img {
+  z-index: 123;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  object-position: center;
+}
+
+#button-home {
+  z-index: 100;
+  margin-top: 250px;
+  margin-right: 400px;
+  border-radius: 20px;
+  border: 0 none;
+  height: 40px;
+  width: 250px;
+  line-height: 2;
+  padding: 20;
+  color: white;
+  transition: all 0.2s linear;
+  text-transform: none;
+  color: white;
+  background-color: #02b973;
+  opacity: 1;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #033a1a;
+  }
+
+  h3 {
+    margin: 0 auto;
+  }
+
+}
+
+#home-link {
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.aws-btn {
+  position: fixed;
+  z-index: 444;
+  --slider-height-percentage: 10%;
+  --slider-transition-duration: 575ms;
+  --organic-arrow-border-radius: 15px;
+  --organic-arrow-height: 40px;
+  --organic-arrow-color: #000000;
+  --organic-arrow-height: 53px;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #0a0a0a;
+  --control-bullet-active-color: #519c97;
+  --loader-bar-color: #ffffff;
+  --loader-bar-height: 1px;
+}
+
+.awssld__bullets button {
+  background-color: #d4d4d4 !important;
+}
+
+.awssld__bullets--active {
+  background-color: #d4d4d4 !important;
+}
+
+.awssld {
+  --loader-bar-color: #6a6a6a !important;
+}
+
+
+.text-banner {
+  color: black;
+}

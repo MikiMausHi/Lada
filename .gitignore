@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+node_modules/
+public/
+webpack-assets.json
+webpack-stats.json
+yarn.lock

@@ -1,0 +1,82 @@
+@import '../../../theme/styles/settings.scss';
+
+
+.block-info {
+  display: flex;
+  width: 766px;
+  white-space: pre-wrap;
+}
+
+.info {
+  width: 50%;
+  font-size: 14px;
+}
+
+.info-link {
+  width: 50%;
+  margin-left: 10%;
+
+  p {
+    text-align: center;
+  }
+}
+
+.block-info-center {
+  width: 766px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.thanks {
+  text-align: center;
+  color: #44bb44;
+  box-sizing: border-box;
+}
+
+.info-license {
+  display: flex;
+  height: 150px;
+  width: 300px;
+  margin-bottom: 55px;
+}
+
+.image-popup {
+  margin-right: 6px;
+}
+
+.info-office {
+  display: flex;
+  justify-content: space-between;
+  width: 766px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  span {
+    width: 100%;
+    margin-left: 40px;
+  }
+}
+
+.info-office-two {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+
+  #spainf {
+    margin-left: 100px;
+  }
+
+  span {
+    margin-left: 35px;
+  }
+}
+
+.image-popup-office {
+  box-shadow: 0 0 5px 3px rgba(221, 221, 221, 1);
+  margin-right: 27px;
+}
+
+.title-lin {
+  font-size: 17px;
+  color: #44bb44;
+}

@@ -1,0 +1,107 @@
+@import '../../../theme/styles/settings.scss';
+
+.treament-block {
+  max-width: 766px;
+  margin: 0 auto;
+}
+
+
+.item-1 {
+  margin: 0;
+  margin-left: 0px;
+}
+
+
+.treatment {
+  color: #44bb44;
+  font-size: 18px;
+
+  span {
+    font-size: 12px;
+  }
+}
+
+
+.one {
+  color: black;
+  font-size: 22px;
+}
+
+.menu-treatment {
+  font-size: 13px;
+
+}
+
+.list-treatment {
+  margin-top: 40px !important;
+}
+
+.treatment-link {
+  color: black;
+  margin-left: 20px;
+}
+
+.treatment-link:hover {
+  color: #44bb44;
+}
+
+.treat-block {
+  margin-top: 15px;
+}
+
+.treatment-img {
+  margin-right: 5px;
+}
+
+.tratment-step {
+  list-style: none;
+  width: 100%;
+
+  li {
+    background-color: transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding-left: 83px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.67px;
+    text-align: left;
+  }
+}
+
+.center-step {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.buttons-treatment {
+  width: 20%;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #44bb44;
+  border: 0;
+  margin-left: 15px;
+  font-size: 15px;
+
+}
+
+.step-1 {
+  background-image: url('../../../theme/images/treatment/step1.png');
+}
+
+.step-2 {
+  background-image: url('../../../theme/images/treatment/step2.png');
+}
+
+.step-3 {
+  background-image: url('../../../theme/images/treatment/step3.png');
+}
+
+.home-link {
+  color: white;
+}
